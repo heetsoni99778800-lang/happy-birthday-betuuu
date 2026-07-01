@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operation Betuu 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 📱 CHAT SCREEN -->
+<div class="screen active">
+  <div class="phone">
+    <div class="message">📩 New message from Heet ❤️</div>
+    <div class="message">Hey Betuu... 🥹💖</div>
+    <div class="message">I made something for you...</div>
+    <button onclick="startSurprise()">Open Surprise 🎁</button>
+  </div>
+</div>
+
+<!-- 🎂 SCREEN 1 -->
+<div class="screen">
+  <h1 class="glow">Happy Birthday Betuuuu 💖</h1>
+  <button onclick="nextScreen()">Open Gift 🎁</button>
+</div>
+
+<!-- 😂 SCREEN 2 -->
+<div class="screen">
+  <h2>Who is opening this gift? 🤭</h2>
+  <button onclick="nextScreen()">Dharmi ❤️</button>
+  <button id="fakeBtn">Someone Else 🙈</button>
+</div>
+
+<!-- ⏳ SCREEN 3 -->
+<div class="screen">
+  <h2>Loading Memories...</h2>
+  <p id="loadingText">Starting...</p>
+</div>
+
+<!-- 🎁 SCREEN 4 -->
+<div class="screen">
+  <div class="gift">🎁</div>
+  <h2>Tap to Open</h2>
+  <button onclick="nextScreen()">Open Box</button>
+</div>
+
+<!-- 💌 SCREEN 5 -->
+<div class="screen">
+  <p class="typewriter">Hey Betuu... 🥹❤️ You are my home. Always.</p>
+  <button onclick="nextScreen()">Next ➡️</button>
+</div>
+
+<!-- 📸 SCREEN 6 -->
+<div class="screen">
+  <h2>Our Memories 📸</h2>
+  <div class="card">☕ Coffee Card</div>
+  <div class="card">🧇 Waffle Card</div>
+  <div class="card">🎵 Starboy Card</div>
+  <button onclick="nextScreen()">Final Surprise 💖</button>
+</div>
+
+<!-- ❤️ FINAL -->
+<div class="screen">
+  <h1 class="glow">You became Home ❤️</h1>
+  <p>Thank you for everything 🥹</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
